@@ -5,9 +5,6 @@ public class PuzzleWord {
     public int x;
     public int y;
 
-    public static final int FOUND_DIRECTION_RIGHT = 0;
-    public static final int FOUND_DIRECTION_DOWN = 1;
-
     public PuzzleWord(int[] position, PuzzleWordDirection direction) {
         found = true;
         this.position = position;
